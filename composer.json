@@ -4,7 +4,7 @@
 	"type": "silverstripe-module",
 
 	"homepage": "https://github.com/salted-herring/silverstripe-standard-permissions",
-	"license": "BSD-3-Clause",
+	"license": "MIT",
 	"keywords": ["silverstripe", "permission"],
 	"authors": [
 		{
