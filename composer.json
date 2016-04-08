@@ -2,7 +2,7 @@
 	"name": "salted-herring/silverstripe-standard-permissions",
 	"description": "Standar permissions module for SilverStripe CMS",
 	"type": "silverstripe-module",
-	"version": "1.0.0"
+	"version": "1.0.0",
 
 	"homepage": "https://github.com/salted-herring/silverstripe-standard-permissions",
 	"license": "MIT",
