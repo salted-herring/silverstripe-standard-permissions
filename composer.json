@@ -1,6 +1,6 @@
 {
 	"name": "salted-herring/silverstripe-standard-permissions",
-	"description": "Standar permissions module for SilverStripe CMS",
+	"description": "Standard permissions module for SilverStripe CMS",
 	"type": "silverstripe-module",
 
 	"homepage": "https://github.com/salted-herring/silverstripe-standard-permissions",
