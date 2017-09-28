@@ -36,6 +36,13 @@
 		public function canCreate($member = false) {
 			return Permission::check(get_class($this->owner) . '_create');
 		}
+		
+		/**
+		 * Can the user publish this?
+		 */
+		public function canPublish($member = false) {
+			return Permission::check(get_class($this->owner) . '_publish');
+		}
 	
 		/**
 		 * Get a complete list of all the permissions this class uses.
@@ -50,7 +57,7 @@
 	
 				// ...add a few permissions.
 				foreach (array(
-					'view', 'edit', 'delete', 'create',
+					'view', 'edit', 'delete', 'create', 'publish',
 				) as $name) {
 	
 					$permissions[$class . '_' . $name] = $class . '_' . $name;
