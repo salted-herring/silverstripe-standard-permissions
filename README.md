@@ -10,4 +10,25 @@ The module can be installed via composer:
 composer require salted-herring/silverstripe-standard-permissions
 ```
 ## Usage
-To come...
+
+Any object that needs to use permissions, should do two things:
+
+1. Setup the yaml configuration to provide the permissions:
+
+```yml
+PublishProvider:
+  classes:
+    - Page
+```
+
+2. The class you're using should also extend `PublishProvider`:
+
+```php
+class Page {
+  ...
+  private static $extensions = [
+    'PublishProvider'
+  ];
+  ...
+}
+```
